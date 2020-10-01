@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    background: url(./Assets/kilian-kremer-Yam7rVEN3zE-unsplash.jpg);
+    background-size: cover;
+}
+
+.cloud{
+    height: 100%;
+    background: url(./Assets/cloud.png);
+    background-size: cover;
+    opacity: 80%;
+    animation: animate 140s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0px;
+    }
+    100% {
+        background-position: 5440px;
+    }
+}
