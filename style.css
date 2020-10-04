@@ -24,13 +24,20 @@ body{
  }
 
 .content{
-    width: 50%;
     text-align: center;
     font-family: 'Bangers', cursive;
     color: azure;
-    font-size: 9vw;
+    
     opacity: 95%;
     animation: breathing 5s ease-out infinite normal;
+}
+
+.text1{
+  font-size: 9vw;
+}
+
+.text2{
+  font-size: 3vw;
 }
 
 @keyframes animate {
