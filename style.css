@@ -30,3 +30,21 @@ footer{
   height: 97%;
   float: right;
 }
+
+.media{
+  height: 80%;
+  text-align: center;
+}
+
+.mediaImage{
+  margin-top: 4%;
+  height: 100%;
+  width: 80%;
+}
+
+.facts{
+  height: 20%;
+  text-align: center;
+  font-size: 3em;
+  padding: 4%;
+}
